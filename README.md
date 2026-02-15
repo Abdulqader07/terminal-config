@@ -13,6 +13,8 @@ configure your zsh shell.
 You gotta install other auto highlighting and auto suggestions (This is totally optional)
 
 ## 2. Add the paths to your .zshrc file
-```source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh```
+```
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
 
