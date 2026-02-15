@@ -33,7 +33,7 @@ Then add the source of that git repo into your own .zshrc config file
 ## 4. Install starship 
 To download starship into your os ```curl -sS https://starship.rs/install.sh | sh```
 
-And add eval ```"$(starship init zsh)"``` to the .zshrc file
+And add ```eval "$(starship init zsh)"``` to the .zshrc file
 
 to configure it make sure that in the ~ directory
 you have a .config  ```mkdir -p ~/.config``` file and then use create a
