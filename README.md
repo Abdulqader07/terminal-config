@@ -19,18 +19,23 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 ## 3. Install zsh auto complete from a github repository
 You gotta download the auto complete of the zsh using the following git link
+
 ```https://github.com/marlonrichert/zsh-autocomplete```
 
 The following command to clone it:
+
 ```% git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git```
 
 Then add the source of that git repo into your own .zshrc config file
+
 ```source /path/to/zsh-autocomplete/zsh-autocomplete.plugin.zsh```
 
 ## 4. Install starship 
 ```curl -sS https://starship.rs/install.sh | sh```
+
 To download starship into your system, to configure it make sure that in the ~ directory
-you have a .config ```mkdir -p ~/.config```file and then use create a
+you have a .config  ```mkdir -p ~/.config``` file and then use create a
+
  ```~/.config/starship.toml``` if it doesn't exist, then from the starships copy any liked I am using the following theme:
 ```starship preset catppuccin-powerline -o ~/.config/starship.toml```
 
